@@ -1,0 +1,232 @@
+{
+  "auth": {
+    "login": {
+      "message": "Login successful",
+      "user": {
+        "email": "demo@sportsai.com",
+        "first_name": "Demo",
+        "last_name": "Kullanıcı",
+        "age": 28,
+        "height": 175.0,
+        "weight": 75.0,
+        "gender": "male",
+        "sport_type": "football",
+        "years_experience": 5,
+        "fitness_level": "intermediate",
+        "training_frequency": 4,
+        "has_injuries": false
+      },
+      "access_token": "demo_access_token_here",
+      "refresh_token": "demo_refresh_token_here"
+    },
+    "register": {
+      "message": "User registered successfully",
+      "user": {
+        "email": "demo@sportsai.com",
+        "first_name": "Demo",
+        "last_name": "Kullanıcı",
+        "age": 28,
+        "height": 175.0,
+        "weight": 75.0,
+        "gender": "male",
+        "sport_type": "football",
+        "years_experience": 5,
+        "fitness_level": "intermediate",
+        "training_frequency": 4,
+        "has_injuries": false
+      },
+      "access_token": "demo_access_token_here",
+      "refresh_token": "demo_refresh_token_here"
+    }
+  },
+  "users": {
+    "dashboard": {
+      "user_profile": {
+        "email": "demo@sportsai.com",
+        "first_name": "Demo",
+        "last_name": "Kullanıcı",
+        "age": 28,
+        "height": 175.0,
+        "weight": 75.0,
+        "gender": "male",
+        "sport_type": "football",
+        "years_experience": 5,
+        "fitness_level": "intermediate",
+        "training_frequency": 4,
+        "has_injuries": false
+      },
+      "stats": {
+        "total_trainings": 5,
+        "total_performances": 8,
+        "current_week": 2,
+        "profile_completeness": 95.5,
+        "bmi": 24.5,
+        "bmi_category": "Normal"
+      },
+      "recent_activity": [
+        {
+          "type": "training_session",
+          "title": "Training Day 1 - Power Focus",
+          "date": "2025-08-09T15:29:58.810257",
+          "status": "completed"
+        },
+        {
+          "type": "performance_test",
+          "title": "Vertical Jump Test",
+          "date": "2025-08-09T15:29:58.810265",
+          "status": "completed"
+        }
+      ]
+    }
+  },
+  "training": {
+    "generate": {
+      "message": "Training plan generated successfully",
+      "plan": {
+        "plan_name": "Week 1 - Strength Focus",
+        "week_number": 1,
+        "training_type": "strength",
+        "target_adaptations": {
+          "muscle_fiber_types": {
+            "type_2_activation": 0.8,
+            "type_1_endurance": 0.2
+          },
+          "energy_systems": {
+            "phosphocreatine": 0.5,
+            "glycolytic": 0.3,
+            "oxidative": 0.2
+          }
+        },
+        "expected_duration": 60,
+        "difficulty_score": 7.5,
+        "sessions": [
+          {
+            "session_name": "Training Day 1",
+            "session_number": 1,
+            "primary_focus": "Power",
+            "warm_up_duration": 10,
+            "main_duration": 40,
+            "cool_down_duration": 10
+          },
+          {
+            "session_name": "Training Day 2",
+            "session_number": 2,
+            "primary_focus": "Strength",
+            "warm_up_duration": 10,
+            "main_duration": 40,
+            "cool_down_duration": 10
+          }
+        ]
+      },
+      "ai_analysis": {
+        "predicted_improvements": {
+          "power": {
+            "expected_improvement_percentage": 8.5,
+            "confidence_score": 0.82
+          },
+          "strength": {
+            "expected_improvement_percentage": 12.3,
+            "confidence_score": 0.89
+          },
+          "speed": {
+            "expected_improvement_percentage": 5.2,
+            "confidence_score": 0.76
+          }
+        }
+      }
+    },
+    "plans": {
+      "plans": [
+        {
+          "plan_name": "Week 1 - Strength Focus",
+          "week_number": 1,
+          "training_type": "strength",
+          "target_adaptations": {
+            "muscle_fiber_types": {
+              "type_2_activation": 0.8,
+              "type_1_endurance": 0.2
+            },
+            "energy_systems": {
+              "phosphocreatine": 0.5,
+              "glycolytic": 0.3,
+              "oxidative": 0.2
+            }
+          },
+          "expected_duration": 60,
+          "difficulty_score": 7.5,
+          "sessions": [
+            {
+              "session_name": "Training Day 1",
+              "session_number": 1,
+              "primary_focus": "Power",
+              "warm_up_duration": 10,
+              "main_duration": 40,
+              "cool_down_duration": 10
+            },
+            {
+              "session_name": "Training Day 2",
+              "session_number": 2,
+              "primary_focus": "Strength",
+              "warm_up_duration": 10,
+              "main_duration": 40,
+              "cool_down_duration": 10
+            }
+          ]
+        }
+      ],
+      "total_count": 1
+    }
+  },
+  "performance": {
+    "tests": {
+      "tests": [
+        {
+          "test_type": "vertical_jump",
+          "primary_metric": "power",
+          "primary_value": 45.5,
+          "primary_unit": "cm",
+          "test_date": "2025-08-09T15:29:58.810198",
+          "improvement_from_baseline": 0.0,
+          "percentile_rank": 65.5
+        },
+        {
+          "test_type": "sprint_20m",
+          "primary_metric": "speed",
+          "primary_value": 3.2,
+          "primary_unit": "seconds",
+          "test_date": "2025-08-09T15:29:58.810245",
+          "improvement_from_baseline": 0.0,
+          "percentile_rank": 72.3
+        }
+      ],
+      "total_count": 2
+    },
+    "analysis": {
+      "overall_score": 78.5,
+      "trends": {
+        "vertical_jump": {
+          "trend": "improving",
+          "slope": 0.15
+        },
+        "sprint_20m": {
+          "trend": "stable",
+          "slope": 0.02
+        }
+      },
+      "strengths": [
+        {
+          "metric": "power",
+          "progress": 85.2,
+          "improvement": 8.5
+        }
+      ],
+      "weaknesses": [
+        {
+          "metric": "endurance",
+          "progress": 45.8,
+          "improvement": -2.1
+        }
+      ]
+    }
+  }
+}
